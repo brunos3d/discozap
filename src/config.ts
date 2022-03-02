@@ -1,10 +1,11 @@
 import { ClientOptions, Intents } from 'discord.js';
 
 export default {
-    bot: {
-        token: process.env.DISCORD_TOKEN,
-    },
+  discord: {
+    token: process.env.DISCORD_TOKEN,
+    zapChannelId: process.env.DISCORD_ZAP_CHANNEL_ID,
     client: {
-        ws: { intents: Intents.ALL }
-    } as ClientOptions
-}
+      ws: { intents: Intents.ALL },
+    } as ClientOptions,
+  },
+};
