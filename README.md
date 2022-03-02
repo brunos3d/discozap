@@ -1,14 +1,26 @@
-# discord-bot-typescript-boilerplate
+# discozap
 
-🤖 NODE.TS - Start your next discord bot project in seconds.
+<p align="center">
+  <a href="https://github.com/BrunoS3D">
+    <img alt="Removing" src="./.github/discozap.png" />
+  </a>
+</p>
+
+<h1 align="center">
+  discozap
+</h1>
+
+<h3 align="center">
+  📞 WhatsApp wrapper for Discord.
+</h3>
 
 ## Installation
 
 Clone project
 
 ```
-git clone git@github.com:BrunoS3D/discord-bot-typescript-boilerplate.git your-app-name
-cd your-app-name
+git clone git@github.com:BrunoS3D/discozap.git
+cd discozap
 ```
 
 Install dependencies
@@ -38,54 +50,7 @@ copy .env.example .env.dev
 Running the bot
 
 ```sh
-yarn dev # or cross-env NODE_ENV=development env-cmd -f .env.dev tsnd --transpile-only --respawn --no-notify --ignore-watch node_modules ./src/index.ts
+yarn dev
 ```
 
 > ⚠ Note that the loaded environment variables file is `.env.dev`
-
-## Running on production environment
-
-### With Docker
-
-> ⚠ Remember to follow the [Installation](#Installation) steps before proceeding
-
-```bash
-docker build -t your-app-name .
-docker run -it --rm -e DISCORD_TOKEN="YOUR TOKEN HERE" --name your-app-name your-app-name
-```
-
-### With Docker Compose
-
-> ⚠ Remember to follow the [Installation](#Installation) steps before proceeding
-
-```bash
-docker compose up -d
-```
-
-> ⚠ Note that the loaded environment variables file is `.env`
-
-### Without Docker Compose
-
-> ⚠ Remember to follow the [Installation](#Installation) steps before proceeding
-
-Directly
-
-```bash
-yarn deploy
-```
-
-> ⚠ Note that the loaded environment variables file is `.env`
-
-Manually
-
-```bash
-yarn build
-```
-
-Startup bot
-
-```bash
-yarn start # or cross-env NODE_ENV=production env-cmd -f .env node ./dist/index.js
-```
-
-> ⚠ Note that the loaded environment variables file is `.env`
