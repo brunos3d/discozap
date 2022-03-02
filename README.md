@@ -9,7 +9,7 @@
 </h1>
 
 <h3 align="center">
-  📞 WhatsApp wrapper for Discord.
+  📞 WhatsApp proxy for Discord.
 </h3>
 
 ## Installation
