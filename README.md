@@ -1,8 +1,6 @@
-# discozap
-
 <p align="center">
   <a href="https://github.com/BrunoS3D">
-    <img alt="Removing" src="./.github/discozap.png" />
+    <img alt="Removing" src="./.github/discozap.png" style="max-width: 548px"/>
   </a>
 </p>
 
